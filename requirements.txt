@@ -1,0 +1,30 @@
+# UI
+streamlit
+
+# LangChain core + integrations
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+
+# Vector DB
+faiss-cpu
+
+# PDF loader
+pypdf
+
+# Embeddings (IMPORTANT FIX)
+sentence-transformers
+
+# ML backend (FIXS torchvision error)
+torch
+torchvision
+torchaudio
+
+# HuggingFace ecosystem
+transformers
+
+# Local LLM interface
+ollama
+
+# Environment variables
+python-dotenv
