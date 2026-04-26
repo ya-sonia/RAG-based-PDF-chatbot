@@ -6,16 +6,14 @@ from langchain_community.vectorstores import FAISS
 import ollama
 
 
-# ---------------- PAGE CONFIG ----------------
+
 st.set_page_config(
     page_title="Smart PDF Chatbot",
     page_icon="📄",
     layout="wide"
 )
 
-# st.title(" Smart PDF Chatbot (RAG + Ollama)")
-# st.write("Upload a PDF and chat with it like ChatGPT ")
-# ---------------- CUSTOM UI STYLE ----------------
+
 st.markdown("""
 <style>
 
@@ -85,7 +83,7 @@ section[data-testid="stSidebar"] {
 </style>
 """, unsafe_allow_html=True)
 
-# ---------------- TITLE ----------------
+
 st.markdown('<div class="main-title"> Smart PDF Chatbot (RAG + Ollama)</div>', unsafe_allow_html=True)
 st.write("Upload a PDF and start a smart conversation with your document")
 
@@ -182,7 +180,7 @@ Answer:
     return response["message"]["content"]
 
 
-# ---------------- SIDEBAR ----------------
+
 with st.sidebar:
     st.header(" Upload PDF")
 
