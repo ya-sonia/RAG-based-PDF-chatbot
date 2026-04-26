@@ -33,6 +33,14 @@ Built using **Streamlit, LangChain, FAISS, HuggingFace embeddings, and Ollama (l
 
 ---
 
+## System Architecture
+
+The following diagram explains the end-to-end workflow of the Smart PDF Chatbot using RAG and Ollama.
+
+![RAG Architecture](assets/Architecture.png)
+
+---
+
 ##  Setup Guide
 
 ### 1️ Clone the repository
