@@ -32,8 +32,8 @@ Built using **Streamlit, LangChain, FAISS, HuggingFace embeddings, and Ollama (l
 
 ### 1️ Clone the repository
 ```bash
-git clone https://github.com/your-username/pdf-rag-chatbot.git
-cd pdf-rag-chatbot
+git clone https://github.com/ya-sonia/RAG-based-PDF-chatbot.git
+cd RAG-based-PDF-chatbot
 ```
 
 ### 2. Create and activate virtual environment 
