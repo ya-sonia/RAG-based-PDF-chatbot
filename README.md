@@ -4,6 +4,11 @@ A **Retrieval-Augmented Generation (RAG)** based AI chatbot that allows users to
 Built using **Streamlit, LangChain, FAISS, HuggingFace embeddings, and Ollama (local LLM)**.
 
 ---
+<p align="center">
+  <img src="assets/RAG_Output.png" width="800"/>
+</p>
+
+---
 
 ##  Features
 
